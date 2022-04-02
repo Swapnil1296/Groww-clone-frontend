@@ -108,6 +108,9 @@
 .e2-graph{
     margin-left: 10px;
 }
+.e2-graph>img{
+    width: 500px;
+}
 .e2-graph-btn{
     display: flex;
     width: 30%;
@@ -224,13 +227,14 @@ margin-left: 10px;
 
         
         .e2-mini-div2{
-            width: 30%;
+            width: 50%;
              /* border: 1px solid black; */
          }
          .e2-monthly-sip{
              width: 100%;
-             height: 400px;
+             height: 440px;
              border-radius: 10px;
+            border: 1px solid black;
              box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
             
          }
@@ -304,6 +308,7 @@ margin-left: 10px;
          .e2-monthly-sip-contain-b{
              display: flex;
              justify-content: space-between;
+
          }
          .e2-monthly-sip-contain-b>div>h5{
              font-size: 13px;
@@ -334,7 +339,7 @@ margin-left: 10px;
          }
          .e2-btn-one{
              height: 40px;
-            width: 150px;
+            width: 100px;
             text-transform: uppercase;
             background-color: white;
             border: none;
@@ -346,7 +351,7 @@ margin-left: 10px;
          }
          .e2-btn-two{
             height: 40px;
-            width: 150px;
+            width: 100px;
             border: none;
             border-radius: 5px;
             background-color: #40dcb5;

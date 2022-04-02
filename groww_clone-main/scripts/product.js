@@ -66,6 +66,7 @@ function showCompDetails(data) {
     let title = document.getElementById("title");
     let img = document.getElementById("image");
     let graph = document.getElementById("graph");
+    graph.setAttribute("id", "graphImage");
     let roi = document.getElementById("roi");
     let onedayroi = document.getElementById("onedayroi");
     let nav = document.getElementById("nav");
