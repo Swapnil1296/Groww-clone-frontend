@@ -2,7 +2,7 @@
 
 async function fetchData() {
   try {
-    let res = await fetch(`http://localhost:5000/popularfunds`);
+    let res = await fetch(`http://ec2-34-222-104-93.us-west-2.compute.amazonaws.com:4000/popularfunds`);
     let data = await res.json();
 
      console.log(data)

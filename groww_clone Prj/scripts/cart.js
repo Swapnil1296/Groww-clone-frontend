@@ -57,7 +57,7 @@ function invest(){
 
    btn.addEventListener("click", ()=>{
     
-       window.location.href="/invest.html";
+       window.location.href="./invest.html";
       
    })
 }
