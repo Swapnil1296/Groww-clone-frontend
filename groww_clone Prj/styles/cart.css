@@ -1,0 +1,125 @@
+.cart{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    margin-top: 8vh;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    padding-right: 10%;
+}
+.cart-list>div:first-child{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.33px;
+    color: var(--text);
+}
+.h-text{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    color: var(--text);
+}
+.cart-item{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    box-shadow: 0 0 9px 0 var(--boxShadow);
+    padding: 4%;
+    position: relative;
+}
+.cart-item-name{
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+    color: var(--text);
+}
+.light-text{
+    font-size: 16px;
+    letter-spacing: -0.3px;
+    margin-right: 13px;
+    color: var(--iconLight);
+}
+.cart-item-details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.remove-btn{
+    /* display: none; */
+    position: absolute;
+    right: 24px;
+    top: 10px;
+    color: var(--iconMedium);
+    cursor: pointer;
+    opacity: 30%;
+}
+.add-more{
+    display: flex;
+    justify-content: center;
+}
+.add-more>div{
+    background: var(--primaryClr10);
+    color: var(--primaryClr) !important;
+    transition: background .8s;
+    width: fit-content;
+    cursor: pointer;
+    align-items: center;
+    font-size: 1em;
+    padding: 1%;
+}
+.add-more>div:hover{
+    background-color: var(--quaternaryBg);
+}
+
+
+
+.payment{
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 20;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.payment>button{
+    width: 70%;
+    height: 40px;
+    margin-top: 40px;
+    background-color: rgb(68, 211, 163);
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#method{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.payment img{
+    width: 40px;
+    height: 30px;
+    /* margin-top: 5px; */
+}
+
+#method>div{
+    display: flex;  
+    font-size: 20px;
+    justify-content: space-between;
+
+}
+
+
+#method button{
+    width: 100px;
+    height: 20px;
+    background-color: rgb(175, 175, 175);
+    border: none;
+}
+
+#UPIid{
+    margin-top:15px;
+    width: 70%;
+    height: 25px;
+}
