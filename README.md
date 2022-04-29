@@ -35,9 +35,9 @@ You can also take a glimpse of our Project, just follow the below steps:
 
     1. Copy the repo in your vscode and run the command npm i to install all the packages and dependencies.
 
-    2. Also copt this https://github.com/Swapnil1296/Groww-Clone-backend repo in your vs code and run it to fetch all data from the mongo Database.
+    2. Also copy this https://github.com/Swapnil1296/Groww-Clone-backend repo in your vs code and run it to fetch all data from the mongo Database.
 
-    3. The clone ready !
+    3. The clone  is ready !
 
 <br>
 
