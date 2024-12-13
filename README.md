@@ -1,4 +1,4 @@
-# Groww.com(clone) 🌐
+# Groww(clone) 🌐
 
 **Groww** is a website which let users to trade their money in different types of stock and share market.This is our team collaboration project at Full Stack-development bootcamp in Masai School.
 
